@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Prevents scrollbars from appearing */
+    background-color: #000;
+}
+
+.trail {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    pointer-events: none; /* Prevents the trail elements from blocking mouse events */
+}
